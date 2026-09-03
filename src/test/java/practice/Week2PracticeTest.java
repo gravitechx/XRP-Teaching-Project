@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.*;
  * 3. Stage, commit, and push changes on your branch ([FirstName][LastInitial]) with your initials!
  */
 
-
+/*
 public class Week2PracticeTest {
 
     // =========================================================================
@@ -25,16 +25,16 @@ public class Week2PracticeTest {
         String name = "Elia";
 
         // assign an integer 1 for the robot's CAN ID
-        int driveCanID = 1;
+        int driveCanID = 423;
 
         // Declare and assign a double 0.85 for default motor speed percentage (0.0 to 1.0)
-        double defaultSpeed = 0.85;
+        double defaultSpeed = 23.34;
 
         // Declare and assign a boolean true indicating if the brake mode is active
-        boolean isBrakeEnabled = true;
+        boolean isBrakeEnabled = false;
 
         // Declare and assign a String (subteamName) for the subteam name
-        String subteamName = "Programming";
+        String subteamName = "";
 
         // --- DO NOT MODIFY BELOW THIS LINE ---
         assertEquals(1, driveCanID, "driveCanID should equal 1");
@@ -48,16 +48,16 @@ public class Week2PracticeTest {
         double leftMotorSpeed = 0.50;
         double rightMotorSpeed = 0.50;
 
-        // TODO: Apply a 10% speed boost (add 0.10) to leftMotorSpeed
-        leftMotorSpeed = leftMotorSpeed+0.1;
+        // TODO: Add 0.10 to leftMotorSpeed
 
-        // TODO: Fix the line below by uncommenting it and applying correct logic.
+
+        // TODO: Fix the line below by uncommenting it.
         // Hint: Use Ctrl + / (or Cmd + /) to quickly toggle comments.
 
-        rightMotorSpeed = rightMotorSpeed * 2.0;
+        // rightMotorSpeed = rightMotorSpeed * 2.0;
 
         // TODO: Comment out the line below so leftMotorSpeed isn't reset to zero!
-        // leftMotorSpeed = 0.0;
+        leftMotorSpeed = 0.0;
 
         // --- DO NOT MODIFY BELOW THIS LINE ---
         assertEquals(0.60, leftMotorSpeed, 0.001, "leftMotorSpeed should be 0.60");
@@ -69,9 +69,7 @@ public class Week2PracticeTest {
     // LESSON 2.2: CONDITIONALS & BOOLEAN LOGIC
     // =========================================================================
 
-    //
-     //* Helper method simulating speed limit checks for safety.
-     //
+     // Helper method simulating speed limit checks for safety.
     private double calculateSafeSpeed(double reqSpeed, boolean eStop) {
         boolean emergencyStop = eStop;
         double requestedSpeed = reqSpeed;
@@ -79,8 +77,8 @@ public class Week2PracticeTest {
         
         // TODO: Implement conditional logic:
         // 1. If emergencyStop is true, set returnValue to 0.0 immediately.
-        // 2. If requestedSpeed is greater than 1.0, set returnValue to 1.0.
-        // 3. If requestedSpeed is less than -1.0, set returnValue to -1.0.
+        // 2. Else if requestedSpeed is greater than 1.0, set returnValue to 1.0.
+        // 3. Else if requestedSpeed is less than -1.0, set returnValue to -1.0.
         // 4. Otherwise, set returnValue to requestedSpeed.
 
         if(emergencyStop){
@@ -102,9 +100,7 @@ public class Week2PracticeTest {
     }
 
     
-    //
     // Helper method simulating boolean operations for subsystem readiness.
-     //
     private boolean isRobotReadyToDrive(boolean hasBatPower, boolean isDSConn, boolean hasProblems) {
         boolean hasBatteryPower = hasBatPower;
         boolean isDSConnected = isDSConn;
@@ -134,4 +130,4 @@ public class Week2PracticeTest {
         assertFalse(isRobotReadyToDrive(true, true, true), "Robot should NOT be ready if there are active errors");
     }
 }
-
+*/
